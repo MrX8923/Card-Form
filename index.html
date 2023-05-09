@@ -1,0 +1,47 @@
+<html class="no-js" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form Card</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="img/k.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="js/1.js" defer></script>
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+</head>
+
+
+<body>
+
+<form action="">
+  <fieldset>
+    <legend>Credit card details</legend>
+    <label for="number">Card Number</label>
+    <input id="number" type="text" name="login" placeholder="1234 5678 9012 3456">
+    <label for="name">Name On Card</label>
+    <input id="name" type="text" name="name" placeholder="Name Surname">
+    <div class="row">
+      <div>
+        <label for="exdate">Expire Date</label>
+        <input id="exdate" type="text" name="exdate" maxlength="2" placeholder="02">
+        <input id="exyear" type="text" name="exyear" maxlength="4" placeholder="2017">
+      </div>
+      <div>
+        <label for="code">CVV/CVN</label>
+        <input id="code" type="password" maxlength="3" placeholder="***">
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+</body>
+
+</html>
